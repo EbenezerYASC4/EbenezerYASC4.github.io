@@ -12,9 +12,8 @@
     <title>personalSite-Ebenezer Yeko</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="personal.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> 
+    <script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -31,6 +30,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
+    <img id = "imap"src= "myprofile.jpg"width=70px></img>
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -38,10 +38,9 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                    <i class="fa fa-play-circle"></i> <span class="light">Ebenezer</span> Yeko
                 </a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
@@ -50,15 +49,21 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#home">Home</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#about">AboutMe</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Skills</a>
+                        <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                         <li>
                         <a class="page-scroll" href="#mymission"> My Mission</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#donations">Donate</a>
                     </li>
                     </li>
                 </ul>
@@ -68,21 +73,28 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
+    <!-- Intro Header --><!--Home-->
     <header class="intro">
         <div class="intro-body">
+            
             <div class="container">
+                <section id="home" class="container content-section text-center">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Welcome...</h1>
                         <p class="intro-text">Don't judge each day by the harvest you read but by the seeds you plant</p>
+                        
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
+                        <h3 id="subtitle">Future Neurosurgeon</h3>
                     </div>
                 </div>
             </div>
         </div>
+        
+         </section>
+         
     </header>
 
     <!-- About Section -->
@@ -91,20 +103,46 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Me</h2>
                 <p>A Renaissance man man is something I consider myself<a href="http://instagram.com/ebeney51/"></a>.Extremely proactive self driven young male that strives for nothing less of happiness.</p>
-                <p>Self perservering <a href="https://www.brainyquote.com/quotes/quotes/a/aldoushuxl386738.html"></a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                <p>Self perservering <a href="https://www.brainyquote.com/quotes/quotes/a/aldoushuxl386738.html"></a>.</p>
                 <p>Higly skilled and experienced. Knowledgeable.</p>
             </div>
         </div>
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
+    <section id="skills" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Skills</h2>
                     <p>You are not born knowing everything, but knowing you can learn is all the power you need.-me</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <a href="indexto.html" class="btn btn-default btn-lg">Skills</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<h3 id="subtitle">Future Neurosurgeon</h3>
+    
+    <!-- Donate Section -->
+    <section id="donations" class="content-section text-center">
+        <div class="donation-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Donate.. to suport a cause</h2>
+                    <p>You are not born knowing everything, but knowing you can learn is all the power you need.-me</p>
+                    <a href="http://cash.me/$EbenezerYeko" class="btn btn-default btn-lg">Donate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Download Section -->
+    <section id="mymission" class="content-section text-center">
+        <div class="my-mission">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Mission</h2>
+                    <p>You are not born knowing everything, but knowing you can learn is all the power you need.-me</p>
                 </div>
             </div>
         </div>
@@ -119,13 +157,13 @@
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://www.facebook.com/ebenzy.benzy" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/EbenezerYASC4" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://mail.google.com/mail/u/0/ebenezeryekohttps://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
@@ -133,8 +171,42 @@
     </section>
 
     <!-- Theme JavaScript -->
-     <script src="sketch.js"></script>
+     <script src="move.js"></script>
 
 </body>
 
 </html>
+<!--P-Sign-->
+find a cool letter p that can href to my resume
+<html>
+    <head>
+    <link href="main.css"rel="stylesheet">
+   
+<a class ="plus"id = "donate"href="http://cash.me/$EbenezerYeko" target="_blank"><button>Donate!</button></a>
+    </head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+    </html>
